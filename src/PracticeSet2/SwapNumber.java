@@ -13,8 +13,7 @@ public class SwapNumber {
         System.out.print("Enter the value of num2: ");
         int num2 = sc.nextInt();
 
-        //with third variable
-
+//        with third variable
 //        int temp = num1;
 //        num1 = num2;
 //        num2 = temp;
@@ -31,7 +30,6 @@ public class SwapNumber {
 //        System.out.println(num1 + "  " + num2);
 
 //        with XOR
-
         num1 = num1 ^ num2;
         num2 = num1 ^ num2;
         num1 = num1 ^ num2;
